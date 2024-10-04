@@ -59,7 +59,7 @@ Requirements
 
 ## Screenshot
 
-https://github.com/hritikranjan1/message-encryption-decryption/blob/main/Screenshot%20from%202024-10-04%2014-42-57.png?raw=true
+![image](https://github.com/user-attachments/assets/4d165f0a-b46f-4929-a1d2-d3e141125bdb)
 
 
 ## License
