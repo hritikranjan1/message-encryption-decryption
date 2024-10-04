@@ -67,4 +67,6 @@ Requirements
 This project is licensed under the MIT License. See the LICENSE file for more information.
 ## Author
 
-Developed by Hritik Ranjan.
+- Name: Hritik ranjan
+- GitHub: https://github.com/hritikranjan1
+- LinkedIn: https://www.linkedin.com/in/hritik-ranjan-05a835230/
