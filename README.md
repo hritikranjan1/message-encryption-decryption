@@ -58,6 +58,10 @@ Requirements
     base64 (Python built-in library)
 
 ## Screenshot
+
+https://github.com/hritikranjan1/message-encryption-decryption/blob/main/Screenshot%20from%202024-10-04%2014-42-57.png?raw=true
+
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
