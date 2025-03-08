@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Encryption Terminal</title>
+    <style>
+        /* Import Hacker-style Font */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        /* Body Styling */
+        body {
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: black;
+            color: #0f0; /* Neon Green */
+            overflow: hidden;
+        }
+
+        /* Animated Matrix Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.gifer.com/VxR.gif') repeat;
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        /* Hacking Terminal Container */
+        .container {
+            max-width: 450px;
+            margin: 80px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.85);
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 10px #00ff00;
+        }
+
+        /* Input & Select Styling */
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            border-radius: 5px;
+            background: black;
+            color: #00ff00;
+            text-align: center;
+            box-shadow: 0 0 5px #00ff00;
+        }
+
+        /* Placeholder Text */
+        input::placeholder {
+            color: #00ff00;
+            opacity: 0.6;
+        }
+
+        /* Glowing Button */
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background: #00ff00;
+            color: black;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 0 10px #00ff00;
+        }
+
+        /* Hover Effect */
+        button:hover {
+            background: #00cc00;
+            box-shadow: 0 0 20px #00ff00;
+        }
+
+        /* Result Box */
+        .result {
+            font-size: 18px;
+            margin-top: 15px;
+            padding: 10px;
+            background: rgba(0, 255, 0, 0.2);
+            border-radius: 8px;
+            color: #00ff00;
+        }
+
+        /* Hacker Footer */
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* Social Links */
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 0 10px;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #00cc00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <h1>💀 Hacker Encryption Terminal 💀</h1>
+
+    <div class="container">
+        <form method="post">
+            <input type="text" name="message" placeholder="Enter Secret Message" required><br>
+            <input type="text" name="key" placeholder="Enter Encryption Key" required><br>
+            <select name="mode">
+                <option value="e">🛡️ Encrypt</option>
+                <option value="d">🔓 Decrypt</option>
+            </select><br>
+            <button type="submit">Execute</button>
+        </form>
+        
+        {% if result %}
+        <div class="result">
+            <h3>Output:</h3>
+            <p>{{ result }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <p class="footer">Developed by: <strong>Hritik Ranjan</strong></p>
+
+    <div class="social-links">
+        🔗 <a href="https://github.com/hritikranjan1" target="_blank">GitHub</a>
+        | 💼 <a href="https://www.linkedin.com/in/hritikranjan1/" target="_blank">LinkedIn</a>
+        | 📢 <a href="https://t.me/codewithluv143" target="_blank">Telegram Community</a>
+    </div>
+</body>
+</html>
