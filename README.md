@@ -108,7 +108,7 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 - **Name:** Hritik Ranjan
 - **GitHub:** [hritikranjan1](https://github.com/hritikranjan1)
 - **LinkedIn:** [Hritik Ranjan](https://www.linkedin.com/in/hritik-ranjan-05a835230/)
-- **Telegram Community:** [Join Here](https://t.me/your-channel-link)  
+- **Telegram Community:** [Join Here](https://t.me/codewithluv143)  
 
 🚀 **Happy Encrypting & Decrypting!** 🔒
 
